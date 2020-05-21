@@ -1,6 +1,8 @@
 # SVT Nyheter (unofficial)
 
-Ubuntu Touch Webapp for [SVT Nyheter](https://www.svt.se/).
+Ubuntu Touch Webapp for the [SVT Nyheter](https://www.svt.se/) website.
+
+Sveriges Television ([SVT](https://en.wikipedia.org/wiki/Sveriges_Television)) is the Swedish national public television broadcaster.
 
 ## Build
 
