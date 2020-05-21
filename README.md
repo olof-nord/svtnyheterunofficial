@@ -4,6 +4,9 @@ Ubuntu Touch Webapp for the [SVT Nyheter](https://www.svt.se/) website.
 
 Sveriges Television ([SVT](https://en.wikipedia.org/wiki/Sveriges_Television)) is the Swedish national public television broadcaster.
 
+## Download
+[![OpenStore](https://open-store.io/badges/en_US.png)](https://open-store.io/app/svtnyheterunofficial.olof-nord)
+
 ## Build
 
 To build, clickable is required.  
