@@ -16,7 +16,7 @@ jobs:
       - name: Build application
         uses: docker://clickable/ci-16.04-armhf:6.12.2
         with:
-          args: clickable clean && clickable build
+          args: clickable build
 
       - name: Review application
         uses: docker://clickable/ci-16.04-armhf:6.12.2
