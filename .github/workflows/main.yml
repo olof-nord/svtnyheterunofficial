@@ -1,0 +1,24 @@
+name: App Pipeline
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  lint-build:
+    name: Build and review
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Build application
+        uses: docker://clickable/ci-16.04-armhf:6.12.2
+        with:
+          args: clickable clean && clickable build
+
+      - name: Review application
+        uses: docker://clickable/ci-16.04-armhf:6.12.2
+        with:
+          args: clickable review
