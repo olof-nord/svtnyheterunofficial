@@ -16,38 +16,22 @@
 
 import QtQuick 2.7
 import Ubuntu.Components 1.3
-//import QtQuick.Controls 2.2
-import QtQuick.Layouts 1.3
-import Qt.labs.settings 1.0
+import QtWebEngine 1.7
 
 MainView {
-    id: root
+    id: mainView
     objectName: 'mainView'
+
+    // applicationName needs to match the "name" field of the click manifest
     applicationName: 'svtnyheterunofficial.olof-nord'
+
     automaticOrientation: true
 
-    width: units.gu(45)
+    width: units.gu(100)
     height: units.gu(75)
 
-    Page {
+    WebEngineView {
         anchors.fill: parent
-
-        header: PageHeader {
-            id: header
-            title: i18n.tr('SVT Nyheter (unofficial)')
-        }
-
-        Label {
-            anchors {
-                top: header.bottom
-                left: parent.left
-                right: parent.right
-                bottom: parent.bottom
-            }
-            text: i18n.tr('Hello World!')
-
-            verticalAlignment: Label.AlignVCenter
-            horizontalAlignment: Label.AlignHCenter
-        }
+        url: "https://www.svt.se/"
     }
 }

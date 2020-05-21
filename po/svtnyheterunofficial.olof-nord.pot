@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: svtnyheterunofficial.olof-nord\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-21 16:56+0000\n"
+"POT-Creation-Date: 2020-05-21 17:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,10 +17,6 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../qml/Main.qml:37 svtnyheterunofficial.desktop.in.h:1
+#: svtnyheterunofficial.desktop.in.h:1
 msgid "SVT Nyheter (unofficial)"
-msgstr ""
-
-#: ../qml/Main.qml:47
-msgid "Hello World!"
 msgstr ""

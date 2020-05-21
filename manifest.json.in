@@ -9,7 +9,7 @@
             "desktop":  "svtnyheterunofficial.desktop"
         }
     },
-    "version": "@BUILD_VERSION@",
-    "maintainer": "Olof Nord <email@domain.org>",
+    "version": "0.1.0",
+    "maintainer": "Olof Nord <olof.nord@tutanota.com>",
     "framework" : "ubuntu-sdk-16.04"
 }
